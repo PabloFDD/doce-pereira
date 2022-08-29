@@ -1,0 +1,9 @@
+.produtos__carrousel{
+    margin: 200px 300px;
+    border: 2px solid antiquewhite;
+}
+.carrousel-img{
+    width: 70%;
+    cursor: pointer;
+    background-color: antiquewhite;
+}
