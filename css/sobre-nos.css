@@ -1,0 +1,23 @@
+.sobre-nos{
+    height: 100vh;
+    margin-top: 100px;
+}
+
+.sobre-nos__titulo{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 40px;
+}
+
+.sobre-nos__container{
+    width: 100%;
+}
+
+.sobre-nos__descricao{
+    text-align: left;
+    font-size: 18px;
+    margin-left: 10px;
+    width: 40%;
+    margin-left: 30px;
+}
