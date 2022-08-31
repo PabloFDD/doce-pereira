@@ -1,0 +1,64 @@
+.contato{
+    height: 100vh;
+}
+
+.contato__titulo{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 50px;
+}
+
+.contato__container{
+    position: relative;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 65%;
+    border-radius: 10px;
+    background-color: #0f0f0f;
+}
+
+.contato__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contato__label{
+    margin-top: 30px;
+    color: aliceblue;
+    position: relative;
+    left: 10%;
+}
+
+.contato__input{
+    width: 80%;
+    font-size: 18px;
+    border-radius: 2px;
+    position: relative;
+    padding-left: 10px;
+    left: 10%;
+}
+
+.contato_textarea{
+    width: 80%;
+    font-size: 18px;
+    position: relative;
+    left: 10%;
+    padding-left: 10px;
+    border-radius: 2px;
+}
+
+.btn__form{
+    margin-top: 20px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-weight: bold;
+    text-transform: uppercase;
+}
