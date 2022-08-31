@@ -1,0 +1,31 @@
+.area-atuacao{
+    height: 100vh;
+}
+
+.area-atuacao__titulo{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 40px;
+}
+
+.area-atuacao__subtitulo{
+    text-align: center;
+    margin: 0 200px;
+}
+
+.area-atuacao__mapa{
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+}
+
+.slick-slide{
+    height: 450px;
+}
+
+.slick-prev:before, .slick-next:before{
+	color: black;
+}
