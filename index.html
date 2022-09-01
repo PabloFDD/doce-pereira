@@ -11,6 +11,7 @@
     <link href="/css/style.css" type="text/css" rel="stylesheet">
     <link href="/css/area-atuacao.css" type="text/css" rel="stylesheet">
     <link href="/css/contato.css" type="text/css" rel="stylesheet">
+    <link href="/css/rodape.css" type="text/css" rel="stylesheet">
     <title>Doce X</title>
 </head>
 <body>
@@ -18,23 +19,25 @@
         <nav class="cabecalho__navegacao">
             <h3 class="cabecalho__logo">Doces X</h3>
             <ul class="navegacao__links">
-                <li href="#" class="links__item">Produtos</li>
-                <li href="#" class="links__item">Sobre nós</li>
-                <li href="#" class="links__item">Área de atuação</li>
-                <li href="#" class="links__item">Contato</li>
+                <li class="links__item"><a href="#produtos">Produtos</a></li>
+                <li class="links__item"><a href="#sobre-nos">Sobre nós</a></li>
+                <li class="links__item"><a href="#area-atuacao">Área de atuação</a></li>
+                <li class="links__item"><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <h1 class="main__titulo">Bem vindo a doceria X</h1>
         <h3 class="main__subtitulo">O lugar que deixa sua vida mais doce! Qualquer tipo de doce da mais alta qualidade.</h3>
-        <div class="seta" href="#produtos">
+        <div class="seta">
+			<a href="#produtos">
             <span></span>
             <span></span>
             <span></span>
+			</a>
         </div>
     </main>
-        <section class="produtos">
+        <section class="produtos" id="produtos">
 			<h1 class="produtos__titulo">Todo o nosso catalogo está aqui.</h1>
 			<h3 class="produtos__subtitulo">Clique nas imagens abaixo para você ver os tipos e sabores que temos disponíveis</h3>
             <div class="produtos__cards">
@@ -88,7 +91,7 @@
 				</div>
             </div>
         </section>
-        <section class="sobre-nos">
+        <section class="sobre-nos" id="sobre-nos">
 			<h1 class="sobre-nos__titulo">Sobre nós</h1>
 			<div class="sobre-nos__container">
 				<p class="sobre-nos__descricao">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam voluptates repellat aut voluptate eum ipsam fugit omnis, saepe sit, molestiae reprehenderit perspiciatis doloremque pariatur accusantium quos id minus suscipit alias?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum doloribus itaque velit labore veritatis eos nihil enim vero qui quisquam libero deserunt odit, neque exercitationem officia. Esse ex adipisci voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ut incidunt voluptates aspernatur debitis accusamus alias suscipit reiciendis placeat dolores. Similique eos laboriosam accusamus cum natus placeat reprehenderit delectus voluptas? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem aperiam explicabo debitis sapiente, officiis obcaecati reprehenderit sit recusandae atque, eligendi odio ullam, doloribus ipsum suscipit dolorem esse quos earum autem. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -96,7 +99,7 @@
 				<div class="sobre-nos__imagem">Imagem aqui</div>
 			</div>
         </section>
-		<section class="area-atuacao">
+		<section class="area-atuacao" id="area-atuacao">
 			<h1 class="area-atuacao__titulo">Área de atuação</h1>
 			<h3 class="area-atuacao__subtitulo">Atualmente atendemos no interior de São Paulo. Abaixo está algumas cidades, se você mora perto de algumas delas e deseja um de nossos produtos, sua hora é agora.</h3>
 			<div class="area-atuacao__mapa">
@@ -107,7 +110,7 @@
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21175.23824458349!2d-50.647013305881806!3d-20.246860654987707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94982d0db428c6b3%3A0x16cafe6afe0c8350!2sUr%C3%A2nia%2C%20State%20of%20S%C3%A3o%20Paulo%2C%2015760-000!5e0!3m2!1sen!2sbr!4v1661968922871!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
 		</section>
-		<section class="contato">
+		<section class="contato" id="contato">
 			<h1 class="contato__titulo">Contato</h1>
 			<div class="contato__container">
 				<form class="contato__form">
@@ -121,6 +124,14 @@
 				</form>
 			</div>
 		</section>
+		<footer class="rodape">
+			<p>Fone: (XX)XXXXX-XXXX</p>
+			<div class="rodape__redes-sociais">
+				<img class="redes-sociais__icon" src="/assets/facebookl_icon.svg" alt="facebook logo"><a href="#"></a>
+				<img class="redes-sociais__icon" src="/assets/instagram_icon.svg" alt="instagram logo"><a href="#"></a>
+				<img class="redes-sociais__icon" src="/assets/twitter_icon.svg" alt="twitter logo"><a href="#"></a>
+			</div>
+		</footer>
     </main>
     <script src="/js/jquery.js"></script>
     <script src="slick/slick.min.js"></script>
