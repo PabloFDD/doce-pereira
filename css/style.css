@@ -1,36 +1,36 @@
 .main__titulo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    left: 50%;
     position: absolute;
     top: 40%;
-    left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 50px;
-    font-family: 'Dancing Script', cursive;
 }
 
 .main__subtitulo{
-    position: absolute;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    position: absolute;
     text-align: center;   
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .seta{
+    left: 50%;
     position: absolute;
     top: 80%;
-    left: 50%;
     transform: translate(-50%,-50%);
 }
 .seta span{
-    display: block;
-    width: 30px;
-    height: 30px;
+    animation: animate 2s infinite;
     border-bottom: 5px solid #000;
     border-right: 5px solid #000;
-    transform: rotate(45deg);
-    margin: -10px;
     cursor: pointer;
-    animation: animate 2s infinite;
+    display: block;
+    height: 30px;
+    margin: -10px;
+    transform: rotate(45deg);
+    width: 30px;
 }
 .seta span:nth-child(2){
     animation-delay: -0.2s;

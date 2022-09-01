@@ -3,22 +3,22 @@
 }
 
 .area-atuacao__titulo{
-    text-align: center;
-    font-size: 50px;
     font-family: 'Dancing Script', cursive;
+    font-size: 50px;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .area-atuacao__subtitulo{
-    text-align: center;
     margin: 0 200px;
+    text-align: center;
 }
 
 .area-atuacao__mapa{
-    position: relative;
-    top: 40%;
     left: 50%;
+    position: relative;
     transform: translate(-50%, -50%);
+    top: 40%;
     width: 600px;
 }
 

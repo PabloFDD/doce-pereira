@@ -1,30 +1,41 @@
+.cabecalho{
+    height: 50px;
+    width: 100%;
+}
+
 .cabecalho__navegacao{
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-between;
 }
 
 .cabecalho__logo{
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
-    padding-left: 40px;
     letter-spacing: 3px;
+    padding-left: 40px;
 }
 
 .navegacao__links{
     display: flex;
+    list-style: none;
 }
 
 .links__item{
-    padding-right: 40px;
     cursor: pointer;
     font-weight: 700;
+    padding-right: 40px;
 }
 
 .links__item:hover{
-    color:darkcyan ;
+    color:darkcyan;
 }
 
 .links__item:last-child{
     padding-right: 20px;
+}
+
+.links__item a{
+    color: inherit;
+    text-decoration: none;
 }

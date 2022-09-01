@@ -1,0 +1,23 @@
+.rodape{
+    align-items: center;
+    background-color: black;
+    display: flex;
+    gap: 10px;
+    height: 75px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.rodape__redes-sociais{
+    margin-right: 40px;
+}
+
+.redes-sociais__icon{
+    cursor: pointer;
+    width: 35px;
+}
+
+.rodape p{
+    color: aliceblue;
+    margin-left: 40px;
+}
