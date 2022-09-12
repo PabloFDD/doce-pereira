@@ -29,3 +29,38 @@
 .slick-prev:before, .slick-next:before{
 	color: black;
 }
+
+@media only screen and (max-width: 768px){
+    .area-atuacao__subtitulo{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .area-atuacao__subtitulo{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .area-atuacao{
+        height: 100vh;
+    }
+
+    .area-atuacao__subtitulo{
+        font-size: 13px;
+        margin: 0 50px;
+    }
+
+    .area-atuacao__mapa{
+        left: 50%;
+        position: relative;
+        transform: translate(-50%, -50%);
+        top: 30%;
+        width: 300px;
+    }
+
+    .slick-slide{
+        height: 250px;
+    }
+}
